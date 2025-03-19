@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, intial-scale=1.0">
+        <title>International Scholarship</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="project/logo2.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+
+    </section>
+
+    <!---------- Contact Us ---------->
+
+    <section class="location">
+
+        "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0917475039882!2d78.66392157493635!3d17.45532228344359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb7612c2c68369%3A0x9ea4b426b7e3699!2sSreenidhi%20Institute%20of%20Science%20%26%20Technology%20-%20SNIST!5e0!3m2!1sen!2sin!4v1736312398623!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        
+    </section>
+    <section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Sreenidhi Institute of Science and Technology</h5>
+                    <p>Hyderabad</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 7799338511</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>nsurendrareddy3@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+        </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter Email Address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>   
+
+    </section>
+
+    
+
+<!----- Footer ----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our commitment to your education is reinforced by the Quality Assurance Agency’s latest<br>
+          assessment of our standards, which commended the quality of learning opportunities provided<br>
+           to our students. Since opening our doors in 2022, International Scholarship has been<br>
+           providing career focused degree courses to ambitious students from all over the world.</p>
+           <div class="icons">
+            <i class="fa fa-facebook"></i>
+
+           </div>
+</section>
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+      
+    </body>
+</html>
